@@ -9,7 +9,7 @@ const BottomCards = () => {
                 {/* Card 1 */}
                 <div className='grid border border-black rounded-lg'>
                     <div>
-                    <p className='m-3'>“I love it! Started seeing a difference in my weight after my first visit to Rose Slimming  Beauty!”</p>
+                    <p className='m-3'>“I love it! Started seeing a difference in my weight after my first visit to Rose Slimming Beauty!”</p>
                     </div>
                     <div className='bg-gray-200 text-center p-2'>
                         <p className='font-extrabold m-2'>Nomvula S.</p>
@@ -19,7 +19,7 @@ const BottomCards = () => {
 
                 {/* Card 2 */}
                 <div className='grid border border-black rounded-lg'>
-                    <p className='m-3'>“Very affordable! definetely recommending Rose Slimming Beauty ro my friends and family!”</p>
+                    <p className='m-3'>“Very affordable! definetely recommending Rose Slimming Beauty to my friends and family!”</p>
                     <div className='bg-gray-200 text-center p-2'>
                         <p className='font-extrabold m-2'>Palesa L.</p>
                         <p className='font-semibold'>InBody Scan Client</p>

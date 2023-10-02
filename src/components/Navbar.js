@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom'; // Import the Link component
+import ExternalLink from './ExternalLink';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,37 +42,39 @@ const Navbar = () => {
           <ul className="lg:flex space-x-4 font-extrabold">
             {/* Use Link to navigate to different pages */}
             <li>
-              <Link to="/Home" className="text-black hover:text-pink-500">
+              <Link to="/Home" className="text-black hover:text-pink-500 hover:underline">
                 Home
               </Link>
             </li>
             <li>
-              <Link to="/About" className="text-black hover:text-pink-500">
+              <Link to="/About" className="text-black hover:text-pink-500 hover:underline">
                 About
               </Link>
             </li>
             { /*
             <li>
-              <Link to="/Contact" className="text-black hover:text-pink-500">
+              <Link to="/Contact" className="text-black hover:text-pink-500 hover:underline">
                 Contact
               </Link> 
             </li>
             */ }
             <li>
-              <Link to="/Services" className="text-black hover:text-pink-500">
+              <Link to="/Services" className="text-black hover:text-pink-500 hover:underline">
                 Services
               </Link>
             </li>
             <li>
-              <Link to="/BookAppointment" className="text-black hover:text-pink-500">
+              <Link to="/BookAppointment" className="text-black hover:text-pink-500 hover:underline">
                 Book An Appointment
               </Link>
             </li>
+
             <li>
-              <Link to="/#" className="text-black hover:text-pink-500">
+              <ExternalLink to="https://forums.mobirise.com/" className="text-black hover:text-pink-500 hover:underline">
                 Forum
-              </Link>
+              </ExternalLink>
             </li>
+
           </ul>
         </div>
       </div>

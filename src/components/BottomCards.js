@@ -2,7 +2,7 @@ import React from 'react';
 
 const BottomCards = () => {
   return (
-    <div className="shadow-md shadow-red-700 p-5">
+    <div className="shadow-md shadow-red-700 p-5 m-8">
         <h2 className='text-center font-extrabold text-2xl'>What Our Fantastic Clients have to Say</h2>
         <div className="">
             <div className="grid gap-4 m-8 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3">

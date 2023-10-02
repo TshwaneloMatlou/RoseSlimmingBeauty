@@ -6,9 +6,9 @@ import BottomCards from '../components/BottomCards'
 const Home = () => {
   return (
     <div>
-      <TopBanner />
+      <TopBanner /> 
 
-      <div className='grid gap-8 m-[70px] sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
+      <div className='grid gap-8 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
         <div>
           <img src="/image_2.png" alt="Image2" />
         </div>

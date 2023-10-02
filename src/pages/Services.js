@@ -35,7 +35,7 @@ const Services = () => {
 
   return (
     <div className="container mx-auto py-36 px-8 bg-gray-100 rounded-lg">
-      <h1 className="text-3xl text-center font-semibold mb-4">Our Services</h1>
+      <h1 className="font-extrabold text-2xl text-center mb-4">Our Services</h1>
       <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {services.map((service, index) => (
           <li key={index} className="bg-white m-2 shadow-xl hover:shadow-pink-400 rounded-lg">

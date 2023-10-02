@@ -3,6 +3,7 @@ import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import { registerLocale, setDefaultLocale } from 'react-datepicker';
 import enGB from 'date-fns/locale/en-GB';
+import Pricing from '../components/Pricing';
 
 registerLocale('en-GB', enGB);
 setDefaultLocale('en-GB');
@@ -20,8 +21,8 @@ const BookAppointment = () => {
   };
 
   return (
-    <div className="container bg-gray-100 rounded-lg mx-auto p-36">
-      <h1 className="text-3xl text-center font-semibold mb-4">Book an Appointment</h1>
+    <div className="container mx-auto p-8 bg-gray-100 rounded-lg">
+      <h1 className="font-extrabold text-2xl text-center mb-4">Book An Appointment</h1>
 
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
@@ -98,6 +99,11 @@ const BookAppointment = () => {
           Submit Appointment
         </button>
       </form>
+
+      <div>
+        <Pricing />
+      </div>
+
     </div>
   );
 };

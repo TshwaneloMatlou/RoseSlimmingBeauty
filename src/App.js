@@ -17,12 +17,9 @@ import ButtandHipLift from './pages/ButtandHipLift';
 import InbodyScan from './pages/InbodyScan';
 import Services from './pages/Services';
 import BottomBanner from './components/BottomBanner';
-
-
-
+import Newsletter from './components/NewsLetter';
 
 function App() {
-
   return (
     <Router>
       <div className='grid gap-3 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 p-2'>
@@ -68,6 +65,7 @@ function App() {
           </Switch>
         </div> 
           <BottomBanner /> 
+          <Newsletter />
           <Footer />
       </div>
     </Router>

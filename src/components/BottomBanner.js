@@ -9,13 +9,13 @@ const BottomBanner = () => {
         <div className="space-x-4">
           {/* Replace <a> with <Link> for navigation */}
           <Link to="/facebook" className="text-white">
-            <i className="fab fa-facebook-f text-2xl hover:bg-blue-400"></i>
+            <i className="fab fa-facebook-f text-2xl hover:bg-pink-400"></i>
           </Link>
           <Link to="/twitter" className="text-white">
-            <i className="fab fa-twitter text-2xl hover:bg-blue-400"></i>
+            <i className="fab fa-twitter text-2xl hover:bg-pink-400"></i>
           </Link>
           <Link to="/instagram" className="text-white">
-            <i className="fab fa-instagram text-2xl hover:bg-blue-400"></i>
+            <i className="fab fa-instagram text-2xl hover:bg-pink-400"></i>
           </Link>
         </div>
       </div>

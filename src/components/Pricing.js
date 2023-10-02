@@ -4,10 +4,10 @@ const Pricing = () => {
   return (
     <div className="shadow-lg shadow-pink-500 py-10 my-10">
       <div className="text-center">
-        <h2 className="text-3xl font-semibold text-gray-800">Pricing</h2>
+        <h1 className="font-extrabold text-2xl text-center text-gray-800">Pricing</h1>
         <p className="text-gray-500 mt-2">Choose a service that suits your needs.</p>
 
-        <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-4 my-2 px-28 py-10">
+        <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-4 my-2 px-5 py-10">
           
           {/* Pricing Card 1 */}
           <div className="bg-white shadow-lg rounded-lg p-6 hover:bg-pink-200">
